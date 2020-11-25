@@ -6,7 +6,7 @@ export class MerchantsController {
   constructor(private merchantsService: MerchantsService) {}
 
   @Get()
-  getMerchants() {
+  async getMerchants() {
     return this.merchantsService.getMerchants();
   }
 
