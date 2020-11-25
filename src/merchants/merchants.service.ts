@@ -3,7 +3,7 @@ import { mockMerchants } from "../mockData";
 
 @Injectable()
 export class MerchantsService {
-  getMerchants() {
+  getMerchants()  {
     return mockMerchants;
   }
 }
